@@ -11,7 +11,6 @@ This Medicinal Plant Classification App is developed as part of a research proje
   - [Adding TF Lite in Android Studio](#adding-tensorflow-lite-model-in-android-studio)
   - [App](#app)
   - [Credits](#credits)
-  - [License](#License)
 
 ## Dataset
 The model was trained and tested using a mix of publicly available and custom-collected datasets to ensure strong performance and good variety. The dataset includes:   - Training Set: 21,600 images
@@ -19,15 +18,15 @@ The model was trained and tested using a mix of publicly available and custom-co
  - Test Set: 1,980 images
    
 #### Dataset Used
-* [Indian Medicinal ⚕️Leaves 🌿 Dataset]((https://www.kaggle.com/datasets/aryashah2k/indian-medicinal-leaves-dataset))
-* [Mango]((https://universe.roboflow.com/space-5djsz/mango-t8cpv-utr95))
-* [Herb Lens]((https://universe.roboflow.com/mpcs/herb-lens))
+* [Indian Medicinal ⚕️Leaves 🌿 Dataset](https://www.kaggle.com/datasets/aryashah2k/indian-medicinal-leaves-dataset)
+* [Mango](https://universe.roboflow.com/space-5djsz/mango-t8cpv-utr95)
+* [Herb Lens](https://universe.roboflow.com/mpcs/herb-lens)
 * [Herbal Plants](https://universe.roboflow.com/forda-thesis-ang-ferson/herbal-plants-l0bmw)
 * [Plant Detection](https://universe.roboflow.com/testerspace/plant-detection-qxcwe)
 * [begonvil](https://universe.roboflow.com/space-5djsz/begonvil-7tes8)
 * [flowers_segmentation](https://universe.roboflow.com/flowersdetection/flowers_segmentation)
 * [pt2.calamansi.v2](https://universe.roboflow.com/new-workspace-eozul/pt2.calamansi.v2)
-* [Basella Alba (Basale)](https://universe.roboflow.com/space-5djsz/begonvil-7tes8](https://universe.roboflow.com/project-z499k/basella-alba-basale-mht8b)
+* [Basella Alba (Basale)](https://universe.roboflow.com/project-z499k/basella-alba-basale-mht8b)
 * Custom Dataset - We also added some plant images to make the model more accurate and cover more types.
 
 ## Preprocessing Techniques
@@ -61,11 +60,10 @@ The model was trained for more than 15 epochs and tested on a dataset of 1,980 i
 
 ## Credits
 
-I would like to thank the following people who contributed to this project:
+I would like to thank the following individuals for their valuable contributions and collaboration throughout the project.
 
 - **JanJoe Rosario** - _Researcher_ 
 - **Angela Soriano** - _Researcher_ 
 - **Aliyah Velazquez** - _Researcher_
 
-## License
-This project is licensed under the MIT License. For more information, refer to the [LICENSE](LICENSE) file.
+
