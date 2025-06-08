@@ -8,18 +8,27 @@ This Medicinal Plant Classification App is developed as part of a research proje
   - [Dataset](#dataset)
   - [Preprocessing Techniques](#preprocessing-techniques)
   - [Performance Evaluation](#performance-evaluation)
-  - [Setting Up OpenCV](#setting-up-opencv-in-android-studio)
   - [Adding TF Lite in Android Studio](#adding-tensorflow-lite-model-in-android-studio)
   - [App](#app)
+  - [Credits](#credits)
   - [License](#License)
 
 ## Dataset
-The dataset consists of 68,832 handwritten signature sample pairs. These pairs include both genuine and forged signatures. The signatures in the dataset are extracted from two primary sources:
-* [ICDAR 2011 Signature Dataset](https://www.kaggle.com/datasets/robinreni/signature-verification-dataset/data)
-* Custom Dataset - Additional signatures collected specifically for this project to increase the diversity of the model.
-* Data Labeling
-  - Genuine Signatures (1): Both signatures are real.
-  - Forged Signatures (0): One of the signatures in the pair is fake.
+The model was trained and tested using a mix of publicly available and custom-collected datasets to ensure strong performance and good variety. The dataset includes:   - Training Set: 21,600 images
+ - Validation Set: 3,960 images
+ - Test Set: 1,980 images
+   
+#### Dataset Used
+* [Indian Medicinal ⚕️Leaves 🌿 Dataset]((https://www.kaggle.com/datasets/aryashah2k/indian-medicinal-leaves-dataset))
+* [Mango]((https://universe.roboflow.com/space-5djsz/mango-t8cpv-utr95))
+* [Herb Lens]((https://universe.roboflow.com/mpcs/herb-lens))
+* [Herbal Plants](https://universe.roboflow.com/forda-thesis-ang-ferson/herbal-plants-l0bmw)
+* [Plant Detection](https://universe.roboflow.com/testerspace/plant-detection-qxcwe)
+* [begonvil](https://universe.roboflow.com/space-5djsz/begonvil-7tes8)
+* [flowers_segmentation](https://universe.roboflow.com/flowersdetection/flowers_segmentation)
+* [pt2.calamansi.v2](https://universe.roboflow.com/new-workspace-eozul/pt2.calamansi.v2)
+* [Basella Alba (Basale)](https://universe.roboflow.com/space-5djsz/begonvil-7tes8](https://universe.roboflow.com/project-z499k/basella-alba-basale-mht8b)
+* Custom Dataset - We also added some plant images to make the model more accurate and cover more types.
 
 ## Preprocessing Techniques
 * Image Resizing
@@ -27,17 +36,18 @@ The dataset consists of 68,832 handwritten signature sample pairs. These pairs i
 * Normalization
 
 ## Performance Evaluation
-The model was trained for over 100 epochs and tested on a 700-sample test dataset. Below are the results of the evaluation:
+The model was trained for more than 15 epochs and tested on a dataset of 1,980 images. The evaluation results are as follows:
 
 * Results on the Training Dataset
 
-* Results on the Test Dataset
-  - Accuracy: 81.86%
-  - Precision: 81.41%
-  - Recall: 82.57%
-  - F1 Score: 81.99%
+![Image](https://github.com/user-attachments/assets/31522fbc-2bc4-4189-9cf5-09b6916aaca6)
 
-![12](https://github.com/user-attachments/assets/50c5f362-6e69-4aca-a98a-eb04ce8d9fe5)
+* Results on the Test Dataset
+  - Accuracy: 86%
+  - Macro Avg: 86%
+  - Weighted Avg: 86%
+
+![Image](https://github.com/user-attachments/assets/e2870297-ead8-4e44-86e1-bc5ba01369a2)
 
 
 ## Adding Tensorflow Lite model in Android Studio
@@ -47,8 +57,7 @@ The model was trained for over 100 epochs and tested on a 700-sample test datase
     
 ## App
 
-![1cc14b2a-c480-45af-9edf-ff3bb52a41f5 (1)](https://github.com/user-attachments/assets/842394be-ba8b-4f97-96cd-5bc16bd8cfcd)  ![0ebb5911-4ba8-467e-87fc-d34a80c53975](https://github.com/user-attachments/assets/d7c795aa-2fd9-43ea-8ab9-04e3b839d618)
-
+![Image](https://github.com/user-attachments/assets/673e4dbb-47d3-443e-9427-7a3b5905fd0c)
 
 ## Credits
 
